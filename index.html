@@ -12,22 +12,74 @@
 
     <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+      body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(theatre.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #F05F44;
+  text-shadow: #666 2px 3px 1px;
+
+}
+
+hr {
+  border-color: #FF4D27;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 25rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #FF4D27;
+  border-color: #FF4D27;
+}
+
+.btn-primary:hover {
+  background-color: #FD4E4C;
+  border-color: #FD4E4C;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+
+    </style>
+
 
   </head>
   <body>
-  <div class="container d-flex align-items-center h-100">
+  <  <div class="container d-flex align-items-center h-100">
     <div class="row">
       <header class="text-center col-12">
-  <h1 class="text-uppercase"><strong>Captain Reinhild speaking: <br> Welcome to my first landing page!</strong></h1>
+  <h1 class="text-uppercase animate__animated animate__heartBeat"><strong><br> Welcome to the Movie Theatre!</strong></h1>
    </header>
       <div class="buffer col-12"></div>
       <section class="text-center col-12">
         <hr>
-  <a href="https://mailchi.mp/3f4cc8ee97c7/mystart">
-    <button type="button" class="btn btn-primary btn-xl">Find out more</button>
+  <a href="entree.html">
+    <button type="button" class="btn btn-primary btn-xl">We are open. Please enter - however consider the Corona obligations.</button>
   </a>
     </section>
     </div>
